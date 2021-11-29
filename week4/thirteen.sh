@@ -28,7 +28,7 @@ elif [ $total -gt 50 ]
 then
 echo "Grade: D"
 pass=$(($pass+1))
-elif [ $total -gt 40 ]
+elif [ $total -ge 40 ]
 then
 echo "Grade: E"
 pass=$(($pass+1))
