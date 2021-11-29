@@ -11,11 +11,8 @@ b=1
 if [ $n -eq 1 ]
 then
 echo "0"
-elif [ $n -eq 2 ]
+elif [ $n -ge 2 ]
 then
-echo "0"
-echo "1"
-else
 echo "0"
 echo "1"
 fi
