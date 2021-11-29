@@ -8,23 +8,23 @@ read see
 echo "Enter the CIE marks for 50"
 read cie
 total=$(($see+$cie))
-if [ $total -gt 90 ]
+if [ $total -ge 90 ]
 then
 echo "Grade: S"
 pass=$(($pass+1))
-elif [ $total -gt 80 ]
+elif [ $total -ge 80 ]
 then
 echo "Grade: A"
 pass=$(($pass+1))
-elif [ $total -gt 70 ]
+elif [ $total -ge 70 ]
 then
 echo "Grade: B"
 pass=$(($pass+1))
-elif [ $total -gt 60 ]
+elif [ $total -ge 60 ]
 then
 echo "Grade: C"
 pass=$(($pass+1))
-elif [ $total -gt 50 ]
+elif [ $total -ge 50 ]
 then
 echo "Grade: D"
 pass=$(($pass+1))
