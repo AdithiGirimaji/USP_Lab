@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Number of lines:"
-wc -l fifteen.sh
+cat fifteen.sh | wc -l
 echo "Number of words:"
-wc -w fifteen.sh
+cat fifteen.sh | wc -w
 echo "Number of characters:"
-wc -c fifteen.sh
+cat fifteen.sh | wc -c
