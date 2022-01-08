@@ -12,16 +12,16 @@ return 1;
 if(argc == 4)
 {
 if((symlink(argv[2], argv[3])) == -1)
-printf(“Cannot create symbolic link\n”) ;
+printf("Cannot create symbolic link\n") ;
 else
-printf(“Symbolic link created\n”) ;
+printf("Symbolic link created\n") ;
 }
 else
 {
 if((link(argv[1], argv[2])) == -1)
-printf(“Cannot create hard link\n”) ;
+printf("Cannot create hard link\n") ;
 else
-printf(“Hard link created\n”) ;
+printf("Hard link created\n") ;
 }
 return 0;
 }
