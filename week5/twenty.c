@@ -18,7 +18,7 @@ mkfifo(argv[1],S_IFIFO | S_IRWXU | S_IRWXG | S_IRWXO );
 if(argc == 2) //reader process
 {
 fd = open(argv[1], O_RDONLY|O_NONBLOCK);
-while(read(fd, buf, sizeof(buf)) &gt; 0)
+while(read(fd, buf, sizeof(buf)) > 0)
 printf("%s",buf);
 }
 else
