@@ -1,10 +1,10 @@
-#include<sys/types.h>;
-#include<unistd.h>;
-#include<fcntl.h>;
-#include<sys/stat.h>;
-#include<string.h>;
-#include<errno.h>;
-#include<stdio.h>;
+#include<sys/types.h>
+#include<unistd.h>
+#include<fcntl.h>
+#include<sys/stat.h>
+#include<string.h>
+#include<errno.h>
+#include<stdio.h>
 int main(int argc, char* argv[])
 {
 int fd;
