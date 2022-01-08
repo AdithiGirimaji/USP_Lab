@@ -13,3 +13,9 @@ fi
 s=`expr "$s" : '.\(.*\)'`
 done
 echo "Number of vowels is $count"
+
+
+
+#echo "enter the string"
+#read s
+#echo `echo $s | tr -dc '[aeiouAEIOU]' | wc -c`
